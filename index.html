@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Ankit Kumar Dubey — Backend / Distributed Systems Engineer</title>
-<meta name="description" content="Backend engineer. Java, Spring Boot, Kafka, Cassandra. Open-source contributor (JetBrains Runtime).">
+<meta name="description" content="Backend engineer. Java, Spring Boot, Kafka, Cassandra. Author of cassandra-rekey — zero-downtime Cassandra re-encryption tool.">
 <meta name="theme-color" content="#0b0b0b">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
 <style>
@@ -128,9 +128,9 @@
 <section>
   <h2>Open Source</h2>
   <div class="item">
-    <h3><a href="https://github.com/JetBrains/JetBrainsRuntime/pull/605">JetBrains Runtime — PR #605 (JBR-9859, Critical)</a></h3>
-    <p class="when">Apr 2026 · native Objective-C / JNI</p>
-    <p>Authored fix for SIGABRT crash on macOS display reconfiguration affecting IntelliJ IDEA, WebStorm, RubyMine, DataGrip, CLion, PyCharm, GoLand on Apple Silicon. Wrapped unguarded NSException-prone regions in <code>AWTWindow._deliverMoveResizeEvent</code> and <code>CGraphicsEnv.displaycb_handle</code>.</p>
+    <h3><a href="https://github.com/ankit-dub/cassandra-rekey">cassandra-rekey — Author &amp; Maintainer</a></h3>
+    <p class="when">Apr 2026 · Python · Apache 2.0 · <a href="https://pypi.org/project/cassandra-rekey/">PyPI</a> · <a href="https://medium.com/p/1ad8c3de0773">Medium write-up</a></p>
+    <p>Zero-downtime, resumable, parallel re-encryption tool for Apache Cassandra. Token-range chunking with Cassandra-backed resume state (LWT-safe across replicas), pluggable providers (Fernet, AWS KMS via envelope encryption), LWT race guard for concurrent app writes, EWMA backpressure, schema-drift detection, and a janitor for crashed-worker recovery. Validated end-to-end against a real Cassandra container in CI.</p>
   </div>
 </section>
 
