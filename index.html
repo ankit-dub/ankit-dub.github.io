@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ankit Kumar Dubey — Backend / Distributed Systems Engineer</title>
+<meta name="description" content="Backend engineer. Java, Spring Boot, Kafka, Cassandra. Open-source contributor (JetBrains Runtime).">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #0b0b0b;
+    --fg: #e8e8e8;
+    --muted: #9aa0a6;
+    --accent: #7ab7ff;
+    --rule: #1f1f1f;
+    --code-bg: #141414;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #fafafa;
+      --fg: #1a1a1a;
+      --muted: #5b6168;
+      --accent: #1f6feb;
+      --rule: #e6e6e6;
+      --code-bg: #f1f1f1;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  header h1 {
+    font-size: 28px;
+    margin: 0 0 4px;
+    letter-spacing: -0.01em;
+  }
+  header .role {
+    color: var(--muted);
+    font-size: 15px;
+    margin: 0 0 4px;
+  }
+  header .meta {
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0 0 24px;
+  }
+  header .links {
+    margin: 0 0 32px;
+    font-size: 14px;
+  }
+  header .links a { margin-right: 16px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  h2 {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 40px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--rule);
+  }
+  p { margin: 0 0 16px; }
+  ul { padding-left: 20px; margin: 0 0 16px; }
+  li { margin: 0 0 10px; }
+  .item { margin-bottom: 24px; }
+  .item h3 {
+    font-size: 16px;
+    margin: 0 0 4px;
+  }
+  .item .when {
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0 0 8px;
+  }
+  code {
+    background: var(--code-bg);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  .pill {
+    display: inline-block;
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 12px;
+    color: var(--muted);
+    margin: 0 6px 6px 0;
+  }
+  footer {
+    margin-top: 48px;
+    color: var(--muted);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Ankit Kumar Dubey</h1>
+  <p class="role">Backend / Distributed Systems Engineer — Java · Spring Boot · Kafka · Cassandra</p>
+  <p class="meta">Bangalore, India (IST) · Open to remote roles UTC-5 to UTC+5:30</p>
+  <p class="links">
+    <a href="https://github.com/ankit-dub">GitHub</a>
+    <a href="https://linkedin.com/in/ankitdub">LinkedIn</a>
+    <a href="mailto:dankit.773@gmail.com">Email</a>
+  </p>
+</header>
+
+<section>
+  <p>6+ years building backend systems that move billions of records under SLA. Owner mindset across design, code, on-call, and incident response. Recent focus: agentic developer tooling and large-scale data migrations on Cassandra / Kafka.</p>
+</section>
+
+<section>
+  <h2>Open Source</h2>
+  <div class="item">
+    <h3><a href="https://github.com/JetBrains/JetBrainsRuntime/pull/605">JetBrains Runtime — PR #605 (JBR-9859, Critical)</a></h3>
+    <p class="when">Apr 2026 · native Objective-C / JNI</p>
+    <p>Authored fix for SIGABRT crash on macOS display reconfiguration affecting IntelliJ IDEA, WebStorm, RubyMine, DataGrip, CLion, PyCharm, GoLand on Apple Silicon. Wrapped unguarded NSException-prone regions in <code>AWTWindow._deliverMoveResizeEvent</code> and <code>CGraphicsEnv.displaycb_handle</code>.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Experience</h2>
+
+  <div class="item">
+    <h3>Intuit — Software Development Engineer 2</h3>
+    <p class="when">Jun 2022 – Present</p>
+    <ul>
+      <li>Built agentic AI skill standardizing IDPS re-encryption across Cassandra services — compliance cycle ~2 weeks → ~2 days; re-encrypted <strong>1.4B records</strong>.</li>
+      <li>Led migration of <strong>55M customer engagements</strong> to V2 schema with zero data loss using Kafka pipelines and real-time dashboards.</li>
+      <li>Architected migration of <strong>869M+ client records</strong> at <strong>10M+ records/day</strong> on partitioned distributed systems with no downstream impact.</li>
+      <li>Re-encrypted <strong>839M records</strong> to meet updated security protocols, reducing data-exposure surface.</li>
+      <li>Transitioned document extraction from Captiva templates to COS-ML models — accuracy <strong>78% → 92%</strong>, operational cost <strong>−20%</strong>.</li>
+      <li>Diagnosed JVM heap / GC issues — alert noise <strong>−25%</strong>, MTTR <strong>−12%</strong> on high-severity incidents.</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <h3>Freo (MoneyTap) — Senior Software Engineer</h3>
+    <p class="when">Jun 2020 – Jun 2022</p>
+    <ul>
+      <li>Owned end-to-end backend for FreoCard credit service (Spring Boot) — architecture, code, prod ops.</li>
+      <li>Built async API integrations with third-party providers, improving latency and throughput on the credit issuance path.</li>
+      <li>Led KYC integration in FreoPay — user drop-off <strong>−25%</strong>, onboarding efficiency up.</li>
+      <li>Designed BPMN workflow engine on Camunda — converted manual ops flows into executable processes; shipped beta to internal ops team.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <p>
+    <span class="pill">Java</span>
+    <span class="pill">Spring Boot</span>
+    <span class="pill">Kafka</span>
+    <span class="pill">Cassandra</span>
+    <span class="pill">Postgres</span>
+    <span class="pill">AWS</span>
+    <span class="pill">Kubernetes</span>
+    <span class="pill">Docker</span>
+    <span class="pill">Jenkins</span>
+    <span class="pill">Prometheus</span>
+    <span class="pill">Splunk</span>
+    <span class="pill">Kotlin</span>
+    <span class="pill">Python</span>
+    <span class="pill">Hibernate</span>
+    <span class="pill">Redis</span>
+    <span class="pill">MongoDB</span>
+    <span class="pill">Agentic AI tooling</span>
+  </p>
+  <p style="color: var(--muted); font-size: 14px;">Distributed systems · OOP/LLD/HLD · design patterns · JVM internals</p>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <div class="item">
+    <h3>B.Tech — Indian Institute of Technology Goa</h3>
+    <p class="when">2016 – 2020 · CGPA 8.20</p>
+  </div>
+</section>
+
+<footer>
+  <p>Last updated <span id="updated"></span> · built with HTML &amp; GitHub Pages</p>
+</footer>
+
+</main>
+<script>
+  document.getElementById('updated').textContent = new Date().toISOString().slice(0,10);
+</script>
+</body>
+</html>
